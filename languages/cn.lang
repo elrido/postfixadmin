@@ -141,6 +141,8 @@ $PALANG['pCreate_mailbox_password_text'] = 'POP3/IMAP 密码';
 $PALANG['pCreate_mailbox_password_text_error'] = 'POP3/IMAP 密码<br /><span class="error_msg">你输入的密码不相同!<br />或者为空!</span>';
 $PALANG['pCreate_mailbox_name'] = '名字';
 $PALANG['pCreate_mailbox_name_text'] = '全名';
+$PALANG['pCreate_mailbox_oldmail'] = 'Old email'; # XXX
+$PALANG['pCreate_mailbox_oldmail_text'] = 'This address will receive a copy of the welcome email.'; # XXX
 $PALANG['pCreate_mailbox_quota'] = '限制';
 $PALANG['pCreate_mailbox_quota_text'] = 'MB';
 $PALANG['pCreate_mailbox_quota_text_error'] = 'MB<br /><span class="error_msg">你输入的容量限制超出范围!</span>';
@@ -212,6 +214,7 @@ $PALANG['pSendmail_to_text_error'] = '<span class="error_msg">收件人为空或
 $PALANG['pSendmail_subject'] = '主题';
 $PALANG['pSendmail_subject_text'] = '欢迎';
 $PALANG['pSendmail_body'] = '内容';
+$PALANG['pSendmail_body_text'] = ''; # XXX
 $PALANG['pSendmail_button'] = '发送';
 $PALANG['pSendmail_result_error'] = '<span class="error_msg">建立邮箱失败!</span>'; # XXX text change - new: <span class="error_msg">Unable to send email!</span>
 $PALANG['pSendmail_result_success'] = '建立邮箱成功!'; # XXX text change - new: Email sent!

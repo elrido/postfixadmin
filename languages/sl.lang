@@ -141,6 +141,8 @@ $PALANG['pCreate_mailbox_password_text'] = 'Geslo za POP3/IMAP';
 $PALANG['pCreate_mailbox_password_text_error'] = 'Geslo za POP3/IMAP<br /><span class="error_msg">Vnešeni gesli se razlikujeta<br />ali pa sta prazni!</span>';
 $PALANG['pCreate_mailbox_name'] = 'Ime';
 $PALANG['pCreate_mailbox_name_text'] = 'Polno ime';
+$PALANG['pCreate_mailbox_oldmail'] = 'Old email'; # XXX
+$PALANG['pCreate_mailbox_oldmail_text'] = 'This address will receive a copy of the welcome email.'; # XXX
 $PALANG['pCreate_mailbox_quota'] = 'Kvota';
 $PALANG['pCreate_mailbox_quota_text'] = 'MB';
 $PALANG['pCreate_mailbox_quota_text_error'] = 'MB<br /><span class="error_msg">Vnešena kvota je prevelika!</span>';
@@ -212,6 +214,7 @@ $PALANG['pSendmail_to_text_error'] = '<span class="error_msg">Polje "Za" ne vseb
 $PALANG['pSendmail_subject'] = 'Zadeva';
 $PALANG['pSendmail_subject_text'] = 'Pozdravljeni!';
 $PALANG['pSendmail_body'] = 'Besedilo';
+$PALANG['pSendmail_body_text'] = ''; # XXX
 $PALANG['pSendmail_button'] = 'Pošlji sporočilo';
 $PALANG['pSendmail_result_error'] = '<span class="error_msg">Predala ni bilo mogoče ustvariti!</span>'; # XXX text change - new: <span class="error_msg">Unable to send email!</span>
 $PALANG['pSendmail_result_success'] = 'Predal je bil uspešno ustvarjen!'; # XXX text change - new: Email sent!

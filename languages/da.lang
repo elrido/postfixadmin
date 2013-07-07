@@ -144,6 +144,8 @@ $PALANG['pCreate_mailbox_password_text'] = 'Adgangskode til POP3/IMAP';
 $PALANG['pCreate_mailbox_password_text_error'] = 'Adgangskode til POP3/IMAP<br /><span class="error_msg">Adgangskoderne er ikke ens!<br />Eller er tomme!</span>';
 $PALANG['pCreate_mailbox_name'] = 'Navn';
 $PALANG['pCreate_mailbox_name_text'] = 'Fulde navn';
+$PALANG['pCreate_mailbox_oldmail'] = 'Old email'; # XXX
+$PALANG['pCreate_mailbox_oldmail_text'] = 'This address will receive a copy of the welcome email.'; # XXX
 $PALANG['pCreate_mailbox_quota'] = 'Kvota';
 $PALANG['pCreate_mailbox_quota_text'] = 'MB';
 $PALANG['pCreate_mailbox_quota_text_error'] = 'MB<br /><span class="error_msg">Den ønskede kvota er for høj!</span>';
@@ -218,6 +220,7 @@ $PALANG['pSendmail_to_text_error'] = '<span class="error_msg">Modtager er tom el
 $PALANG['pSendmail_subject'] = 'Emne';
 $PALANG['pSendmail_subject_text'] = 'Velkommen';
 $PALANG['pSendmail_body'] = 'Meddelelse';
+$PALANG['pSendmail_body_text'] = ''; # XXX
 $PALANG['pSendmail_button'] = 'Send email';
 $PALANG['pSendmail_result_error'] = '<span class="error_msg">Kan ikke sende email!</span>';
 $PALANG['pSendmail_result_success'] = 'Email sendt!';

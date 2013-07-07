@@ -143,6 +143,8 @@ $PALANG['pCreate_mailbox_password_text'] = 'Lösenord för POP3/IMAP';
 $PALANG['pCreate_mailbox_password_text_error'] = 'Lösenord för POP3/IMAP<br /><span class="error_msg">Lösenorden du angivit är olika!<br />Eller tomma!</span>';
 $PALANG['pCreate_mailbox_name'] = 'Namn';
 $PALANG['pCreate_mailbox_name_text'] = 'Fullständigt namn';
+$PALANG['pCreate_mailbox_oldmail'] = 'Old email'; # XXX
+$PALANG['pCreate_mailbox_oldmail_text'] = 'This address will receive a copy of the welcome email.'; # XXX
 $PALANG['pCreate_mailbox_quota'] = 'Quota';
 $PALANG['pCreate_mailbox_quota_text'] = 'MB';
 $PALANG['pCreate_mailbox_quota_text_error'] = 'MB<br /><span class="error_msg">Quotan du angivit är för stor!</span>';
@@ -214,6 +216,7 @@ $PALANG['pSendmail_to_text_error'] = '<span class="error_msg">Till är en ogilti
 $PALANG['pSendmail_subject'] = 'Ämne';
 $PALANG['pSendmail_subject_text'] = 'Välkommen';
 $PALANG['pSendmail_body'] = 'Meddelande';
+$PALANG['pSendmail_body_text'] = ''; # XXX
 $PALANG['pSendmail_button'] = 'Skicka';
 $PALANG['pSendmail_result_error'] = '<span class="error_msg">Mailet kunde inte skickas!</span>';
 $PALANG['pSendmail_result_success'] = 'Mailet har skickats!';

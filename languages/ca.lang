@@ -140,6 +140,8 @@ $PALANG['pCreate_mailbox_password_text'] = 'Contrasenya per a POP3/IMAP';
 $PALANG['pCreate_mailbox_password_text_error'] = 'Contrasenya per a POP3/IMAP<br /><span class="error_msg">Les contrasenyes introduides no coincideixen<br />o estan en blanc!</span>';
 $PALANG['pCreate_mailbox_name'] = 'Nom';
 $PALANG['pCreate_mailbox_name_text'] = 'Nom complet';
+$PALANG['pCreate_mailbox_oldmail'] = 'Old email'; # XXX
+$PALANG['pCreate_mailbox_oldmail_text'] = 'This address will receive a copy of the welcome email.'; # XXX
 $PALANG['pCreate_mailbox_quota'] = 'Quota'; # XXX
 $PALANG['pCreate_mailbox_quota_text'] = 'MB';
 $PALANG['pCreate_mailbox_quota_text_error'] = 'MB<br /><span class="error_msg">La quota especificada és massa alta!</span>';
@@ -211,6 +213,7 @@ $PALANG['pSendmail_to_text_error'] = '<span class="error_msg">La direcció de de
 $PALANG['pSendmail_subject'] = 'Assumpte';
 $PALANG['pSendmail_subject_text'] = 'Benvingut';
 $PALANG['pSendmail_body'] = 'Cos';
+$PALANG['pSendmail_body_text'] = ''; # XXX
 $PALANG['pSendmail_button'] = 'Enviar missatge';
 $PALANG['pSendmail_result_error'] = '<span class="error_msg">Imposible crear la bústia!</span>'; # XXX text change - new: <span class="error_msg">Unable to send email!</span>
 $PALANG['pSendmail_result_success'] = 'La bústia ha estat creada!'; # XXX text change - new: Email sent!

@@ -140,6 +140,8 @@ $PALANG['pCreate_mailbox_password_text'] = 'Lykilorð til að opna POP3/IMAP';
 $PALANG['pCreate_mailbox_password_text_error'] = 'Lykilorð fyrir POP3/IMAP<br /><span class="error_msg">Lykilorðin sem þú skrifaðir inn passa ekki saman!<br />Eða þú gafst ekkert lykilorð upp!</span>';
 $PALANG['pCreate_mailbox_name'] = 'Nafn';
 $PALANG['pCreate_mailbox_name_text'] = 'Fullt nafn';
+$PALANG['pCreate_mailbox_oldmail'] = 'Old email'; # XXX
+$PALANG['pCreate_mailbox_oldmail_text'] = 'This address will receive a copy of the welcome email.'; # XXX
 $PALANG['pCreate_mailbox_quota'] = 'kvóti';
 $PALANG['pCreate_mailbox_quota_text'] = 'MB';
 $PALANG['pCreate_mailbox_quota_text_error'] = 'MB<br /><span class="error_msg">Kvótinn sem þú skilgreindir er meiri en heimild þín gefur!</span>';
@@ -211,6 +213,7 @@ $PALANG['pSendmail_to_text_error'] = '<span class="error_msg">til er tómt eða 
 $PALANG['pSendmail_subject'] = 'Efni bréfs';
 $PALANG['pSendmail_subject_text'] = 'Velkomin';
 $PALANG['pSendmail_body'] = 'Meginmál';
+$PALANG['pSendmail_body_text'] = ''; # XXX
 $PALANG['pSendmail_button'] = 'Senda skilaboð';
 $PALANG['pSendmail_result_error'] = '<span class="error_msg">Get ekki búið til nýtt pósthólf!</span>'; # XXX text change - new: <span class="error_msg">Unable to send email!</span>
 $PALANG['pSendmail_result_success'] = 'Pósthólfið hefur verið stofnað!'; # XXX text change - new: Email sent!

@@ -141,6 +141,8 @@ $PALANG['pCreate_mailbox_password_text'] = 'POP3/IMAP salasana';
 $PALANG['pCreate_mailbox_password_text_error'] = 'POP3/IMAP salasana<br /><span class="error_msg">Antamasi salasanat eivät täsmää!<br />tai ne ovat tyhjät!</span>';
 $PALANG['pCreate_mailbox_name'] = 'Nimi';
 $PALANG['pCreate_mailbox_name_text'] = 'Koko nimi';
+$PALANG['pCreate_mailbox_oldmail'] = 'Old email'; # XXX
+$PALANG['pCreate_mailbox_oldmail_text'] = 'This address will receive a copy of the welcome email.'; # XXX
 $PALANG['pCreate_mailbox_quota'] = 'Kiintiö';
 $PALANG['pCreate_mailbox_quota_text'] = 'MB';
 $PALANG['pCreate_mailbox_quota_text_error'] = 'MB<br /><span class="error_msg">Antamasi kiintiö on liian korkea!</span>';
@@ -212,6 +214,7 @@ $PALANG['pSendmail_to_text_error'] = '<span class="error_msg">Kenelle on tyhjä 
 $PALANG['pSendmail_subject'] = 'Otsikko';
 $PALANG['pSendmail_subject_text'] = 'Tervetuloa';
 $PALANG['pSendmail_body'] = 'Viesti';
+$PALANG['pSendmail_body_text'] = ''; # XXX
 $PALANG['pSendmail_button'] = 'Lähetä viesti';
 $PALANG['pSendmail_result_error'] = '<span class="error_msg">Sähköpostin lähetys ei onnistunut!</span>';
 $PALANG['pSendmail_result_success'] = 'Sähköposti lähetetty!';

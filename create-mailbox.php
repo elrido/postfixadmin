@@ -29,6 +29,7 @@
  * fPassword
  * fPassword2
  * fName
+ * fOldmail
  * fQuota
  * fDomain
  * fActive
@@ -76,6 +77,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST")
     if (isset ($_POST['fPassword'])) $fPassword = escape_string ($_POST['fPassword']);
     if (isset ($_POST['fPassword2'])) $fPassword2 = escape_string ($_POST['fPassword2']);
     isset ($_POST['fName']) ? $fName = escape_string ($_POST['fName']) : $fName = "";
+    isset ($_POST['fOldmail']) ? $fOldmail = escape_string ($_POST['fOldmail']) : $fOldmail = "";
     if (isset ($_POST['fDomain'])) $fDomain = escape_string ($_POST['fDomain']);
     isset ($_POST['fQuota']) ? $fQuota = intval($_POST['fQuota']) : $fQuota = 0;
     isset ($_POST['fActive']) ? $fActive = escape_string ($_POST['fActive']) : $fActive = "1";
@@ -87,6 +89,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST")
         $error = 1;
         $tUsername = escape_string ($_POST['fUsername']);
         $tName = $fName;
+        $tOldmail = $fOldmail;
         $tQuota = $fQuota;
         $tDomain = $fDomain;
         $pCreate_mailbox_username_text = $PALANG['pCreate_mailbox_username_text_error1'];
@@ -97,6 +100,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST")
         $error = 1;
         $tUsername = escape_string ($_POST['fUsername']);
         $tName = $fName;
+        $tOldmail = $fOldmail;
         $tQuota = $fQuota;
         $tDomain = $fDomain;
         $pCreate_mailbox_username_text = $PALANG['pCreate_mailbox_username_text_error3'];
@@ -107,6 +111,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST")
         $error = 1;
         $tUsername = escape_string ($_POST['fUsername']);
         $tName = $fName;
+        $tOldmail = $fOldmail;
         $tQuota = $fQuota;
         $tDomain = $fDomain;
         $pCreate_mailbox_username_text = $PALANG['pCreate_mailbox_username_text_error1'];
@@ -125,6 +130,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST")
             $error = 1;
             $tUsername = escape_string ($_POST['fUsername']);
             $tName = $fName;
+            $tOldmail = $fOldmail;
             $tQuota = $fQuota;
             $tDomain = $fDomain;
             $pCreate_mailbox_password_text = $PALANG['pCreate_mailbox_password_text_error'];
@@ -138,6 +144,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST")
             $error = 1;
             $tUsername = escape_string ($_POST['fUsername']);
             $tName = $fName;
+            $tOldmail = $fOldmail;
             $tQuota = $fQuota;
             $tDomain = $fDomain;
             $pCreate_mailbox_quota_text = $PALANG['pCreate_mailbox_quota_text_error'];
@@ -150,6 +157,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST")
         $error = 1;
         $tUsername = escape_string ($_POST['fUsername']);
         $tName = $fName;
+        $tOldmail = $fOldmail;
         $tQuota = $fQuota;
         $tDomain = $fDomain;
         $pCreate_mailbox_username_text = $PALANG['pCreate_mailbox_username_text_error2'];
@@ -233,7 +241,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST")
 
             if ($fMail == "on")
             {
-                $fTo = $fUsername;
+                $fTo = $fUsername . (empty($fOldmail) ? "" : (", " . $fOldmail));
                 $fFrom = $SESSID_USERNAME;
                 $fHeaders = "To: " . $fTo . "\n";
                 $fHeaders .= "From: " . $fFrom . "\n";
@@ -243,7 +251,11 @@ if ($_SERVER['REQUEST_METHOD'] == "POST")
                 $fHeaders .= "Content-Type: text/plain; charset=utf-8\n";
                 $fHeaders .= "Content-Transfer-Encoding: 8bit\n";
 
-                $fHeaders .= $CONF['welcome_text'];
+                $fHeaders .= str_replace(
+                    array('$name', '$username', '$password'),
+                    array($fName, $fUsername, $fPassword),
+                    empty($PALANG['pSendmail_body_text']) ? $CONF['welcome_text'] : $PALANG['pSendmail_body_text']
+                );
 
                 if (!smtp_mail ($fTo, $fFrom, $fHeaders))
                 {

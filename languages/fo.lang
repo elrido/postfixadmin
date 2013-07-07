@@ -141,6 +141,8 @@ $PALANG['pCreate_mailbox_password_text'] = 'Loyniorð til POP3/IMAP';
 $PALANG['pCreate_mailbox_password_text_error'] = 'Loyniorð til POP3/IMAP<br /><span class="error_msg">Loyniorðini tú skrivaði samsvara ikki!<br />Ella eru tóm!</span>';
 $PALANG['pCreate_mailbox_name'] = 'Navn';
 $PALANG['pCreate_mailbox_name_text'] = 'Fult navn';
+$PALANG['pCreate_mailbox_oldmail'] = 'Old email'; # XXX
+$PALANG['pCreate_mailbox_oldmail_text'] = 'This address will receive a copy of the welcome email.'; # XXX
 $PALANG['pCreate_mailbox_quota'] = 'Kvota';
 $PALANG['pCreate_mailbox_quota_text'] = 'MB';
 $PALANG['pCreate_mailbox_quota_text_error'] = 'MB<br /><span class="error_msg">Kvotan tú skrivaði er ov høg!</span>';
@@ -212,6 +214,7 @@ $PALANG['pSendmail_to_text_error'] = '<span class="error_msg">Til er tómt ella 
 $PALANG['pSendmail_subject'] = 'Evni';
 $PALANG['pSendmail_subject_text'] = 'Vælkomin';
 $PALANG['pSendmail_body'] = 'Boð';
+$PALANG['pSendmail_body_text'] = ''; # XXX
 $PALANG['pSendmail_button'] = 'Send boð';
 $PALANG['pSendmail_result_error'] = '<span class="error_msg">Fái ikki stovnað postkassa!</span>'; # XXX text change - new: <span class="error_msg">Unable to send email!</span>
 $PALANG['pSendmail_result_success'] = 'Postkassin er stovnaður!'; # XXX text change - new: Email sent!

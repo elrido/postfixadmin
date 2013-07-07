@@ -145,6 +145,8 @@ $PALANG['pCreate_mailbox_password_text'] = 'Senha para POP3/IMAP';
 $PALANG['pCreate_mailbox_password_text_error'] = 'Senha para POP3/IMAP<br /><span class="error_msg">As senhas fornecidas são diferentes!<br />Ou não foram digitadas!</span>';
 $PALANG['pCreate_mailbox_name'] = 'Nome';
 $PALANG['pCreate_mailbox_name_text'] = 'Nome completo';
+$PALANG['pCreate_mailbox_oldmail'] = 'Old email'; # XXX
+$PALANG['pCreate_mailbox_oldmail_text'] = 'This address will receive a copy of the welcome email.'; # XXX
 $PALANG['pCreate_mailbox_quota'] = 'Cota de espaço';
 $PALANG['pCreate_mailbox_quota_text'] = 'MB';
 $PALANG['pCreate_mailbox_quota_text_error'] = 'MB<br /><span class="error_msg">A cota de espaço especificada é muito alta!</span>';
@@ -219,6 +221,7 @@ $PALANG['pSendmail_to_text_error'] = '<span class="error_msg">Campo Para está v
 $PALANG['pSendmail_subject'] = 'Assunto';
 $PALANG['pSendmail_subject_text'] = 'Bem-vindo(a)';
 $PALANG['pSendmail_body'] = 'Corpo da Mensagem';
+$PALANG['pSendmail_body_text'] = ''; # XXX
 $PALANG['pSendmail_button'] = 'Enviar Mensagem';
 $PALANG['pSendmail_result_error'] = '<span class="error_msg">Não foi possível enviar a mensagem!</span>';
 $PALANG['pSendmail_result_success'] = 'Mensagem enviada!';

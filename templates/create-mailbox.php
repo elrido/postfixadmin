@@ -47,6 +47,11 @@ if(isset($_SESSION['list_virtual_sticky_domain'])) {
       <td><input class="flat" type="text" name="fName" value="<?php print $tName; ?>" /></td>
       <td><?php print $pCreate_mailbox_name_text; ?></td>
    </tr>
+   <tr>
+      <td><?php print $PALANG['pCreate_mailbox_oldmail'] . ":"; ?></td>
+      <td><input class="flat" type="text" name="fOldmail" value="<?php print $Oldmail; ?>" /></td>
+      <td><?php print $PALANG['pCreate_mailbox_oldmail_text']; ?></td>
+   </tr>
    <?php if ($CONF['quota'] == 'YES') { ?>
    <tr>
       <td><?php print $PALANG['pCreate_mailbox_quota'] . ":"; ?></td>

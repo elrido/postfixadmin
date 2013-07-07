@@ -145,6 +145,8 @@ $PALANG['pCreate_mailbox_password_text'] = 'Password for POP3/IMAP';
 $PALANG['pCreate_mailbox_password_text_error'] = 'Password for POP3/IMAP<br /><span class="error_msg">The passwords that you supplied don\'t match!<br />Or are empty!</span>';
 $PALANG['pCreate_mailbox_name'] = 'Name';
 $PALANG['pCreate_mailbox_name_text'] = 'Full name';
+$PALANG['pCreate_mailbox_oldmail'] = 'Old email';
+$PALANG['pCreate_mailbox_oldmail_text'] = 'This address will receive a copy of the welcome email.';
 $PALANG['pCreate_mailbox_quota'] = 'Quota';
 $PALANG['pCreate_mailbox_quota_text'] = 'MB';
 $PALANG['pCreate_mailbox_quota_text_error'] = 'MB<br /><span class="error_msg">The quota that you specified is to high!</span>';
@@ -219,6 +221,7 @@ $PALANG['pSendmail_to_text_error'] = '<span class="error_msg">To is empty or is 
 $PALANG['pSendmail_subject'] = 'Subject';
 $PALANG['pSendmail_subject_text'] = 'Welcome';
 $PALANG['pSendmail_body'] = 'Body';
+$PALANG['pSendmail_body_text'] = '';
 $PALANG['pSendmail_button'] = 'Send Message';
 $PALANG['pSendmail_result_error'] = '<span class="error_msg">Unable to send email!</span>';
 $PALANG['pSendmail_result_success'] = 'Email sent!';

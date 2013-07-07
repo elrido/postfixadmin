@@ -141,6 +141,8 @@ $PALANG['pCreate_mailbox_password_text'] = 'Contraseña para POP3/IMAP';
 $PALANG['pCreate_mailbox_password_text_error'] = 'Contraseña para POP3/IMAP<br /><span class="error_msg">¡Las contraseñas introducidas no coinciden<br />o están en blanco!</span>';
 $PALANG['pCreate_mailbox_name'] = 'Nombre';
 $PALANG['pCreate_mailbox_name_text'] = 'Nombre completo';
+$PALANG['pCreate_mailbox_oldmail'] = 'Old email'; # XXX
+$PALANG['pCreate_mailbox_oldmail_text'] = 'This address will receive a copy of the welcome email.'; # XXX
 $PALANG['pCreate_mailbox_quota'] = 'Cuota';
 $PALANG['pCreate_mailbox_quota_text'] = 'MB';
 $PALANG['pCreate_mailbox_quota_text_error'] = 'MB<br /><span class="error_msg">¡La cuota especificada es demasiado alta!</span>';
@@ -213,6 +215,7 @@ $PALANG['pSendmail_to_text_error'] = '<span class="error_msg">¡La dirección de
 $PALANG['pSendmail_subject'] = 'Asunto';
 $PALANG['pSendmail_subject_text'] = 'Bienvenido';
 $PALANG['pSendmail_body'] = 'Cuerpo';
+$PALANG['pSendmail_body_text'] = ''; # XXX
 $PALANG['pSendmail_button'] = 'Enviar mensaje';
 $PALANG['pSendmail_result_error'] = '<span class="error_msg">¡Imposible enviar el email!</span>'; 
 $PALANG['pSendmail_result_success'] = '¡Email enviado!'; 

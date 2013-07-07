@@ -145,6 +145,8 @@ $PALANG['pCreate_mailbox_password_text'] = 'Пароль для POP3/IMAP';
 $PALANG['pCreate_mailbox_password_text_error'] = 'Пароль для POP3/IMAP<br /><span class="error_msg">Введенные вами пароли не совпадают!<br />Либо пусты!</span>';
 $PALANG['pCreate_mailbox_name'] = 'Имя';
 $PALANG['pCreate_mailbox_name_text'] = 'Полное имя';
+$PALANG['pCreate_mailbox_oldmail'] = 'Old email'; # XXX
+$PALANG['pCreate_mailbox_oldmail_text'] = 'This address will receive a copy of the welcome email.'; # XXX
 $PALANG['pCreate_mailbox_quota'] = 'Квота';
 $PALANG['pCreate_mailbox_quota_text'] = 'МБ';
 $PALANG['pCreate_mailbox_quota_text_error'] = 'МБ<br /><span class="error_msg">Квота, выставленная вами, слишком велика!</span>';
@@ -219,6 +221,7 @@ $PALANG['pSendmail_to_text_error'] = '<span class="error_msg">Поле Кому 
 $PALANG['pSendmail_subject'] = 'Тема';
 $PALANG['pSendmail_subject_text'] = 'Добро пожаловать!';
 $PALANG['pSendmail_body'] = 'Текст';
+$PALANG['pSendmail_body_text'] = ''; # XXX
 $PALANG['pSendmail_button'] = 'Послать сообщение';
 $PALANG['pSendmail_result_error'] = '<span class="error_msg">Невозможно отправить сообщение!</span>';
 $PALANG['pSendmail_result_success'] = 'Сообщение отправлено!';

@@ -143,6 +143,8 @@ $PALANG['pCreate_mailbox_password_text'] = 'POP3/IMAPのパスワード';
 $PALANG['pCreate_mailbox_password_text_error'] = 'POP3/IMAPのパスワード<br /><span class="error_msg">パスワードが一致しません。<br />または空です。</span>';
 $PALANG['pCreate_mailbox_name'] = '名前';
 $PALANG['pCreate_mailbox_name_text'] = 'フルネーム';
+$PALANG['pCreate_mailbox_oldmail'] = 'Old email'; # XXX
+$PALANG['pCreate_mailbox_oldmail_text'] = 'This address will receive a copy of the welcome email.'; # XXX
 $PALANG['pCreate_mailbox_quota'] = '容量制限';
 $PALANG['pCreate_mailbox_quota_text'] = 'MB';
 $PALANG['pCreate_mailbox_quota_text_error'] = 'MB<br /><span class="error_msg">指定された容量制限が大きすぎます。</span>';
@@ -217,6 +219,7 @@ $PALANG['pSendmail_to_text_error'] = '<span class="error_msg">宛先が空欄か
 $PALANG['pSendmail_subject'] = '件名';
 $PALANG['pSendmail_subject_text'] = 'ようこそ';
 $PALANG['pSendmail_body'] = '本文';
+$PALANG['pSendmail_body_text'] = ''; # XXX
 $PALANG['pSendmail_button'] = 'メッセージ送信';
 $PALANG['pSendmail_result_error'] = '<span class="error_msg">メールが送信できません！</span>';
 $PALANG['pSendmail_result_success'] = 'メールが送信されました。';

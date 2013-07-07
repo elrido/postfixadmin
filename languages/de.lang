@@ -143,6 +143,8 @@ $PALANG['pCreate_mailbox_password_text'] = 'Passwort f&uuml;r POP3/IMAP';
 $PALANG['pCreate_mailbox_password_text_error'] = 'Passwort f&uuml;r POP3/IMAP<br /><span class="error_msg">Die beiden Passw&ouml;rter sind nicht identisch!<br />Oder ganz leer!</span>';
 $PALANG['pCreate_mailbox_name'] = 'Name';
 $PALANG['pCreate_mailbox_name_text'] = 'Voller Name';
+$PALANG['pCreate_mailbox_oldmail'] = 'Alte Email';
+$PALANG['pCreate_mailbox_oldmail_text'] = 'An diese Adresse wird eine Kopie der Begrüssungsmail geschickt.';
 $PALANG['pCreate_mailbox_quota'] = 'Quota';
 $PALANG['pCreate_mailbox_quota_text'] = 'MB';
 $PALANG['pCreate_mailbox_quota_text_error'] = 'MB<br /><span class="error_msg">Das angegebene Quota ist zu hoch!</span>';
@@ -217,6 +219,7 @@ $PALANG['pSendmail_to_text_error'] = '<span class="error_msg">Das "An"-Feld ist 
 $PALANG['pSendmail_subject'] = 'Betreff';
 $PALANG['pSendmail_subject_text'] = 'Willkommen';
 $PALANG['pSendmail_body'] = 'Text';
+$PALANG['pSendmail_body_text'] = '';
 $PALANG['pSendmail_button'] = 'Versende Nachricht';
 $PALANG['pSendmail_result_error'] = '<span class="error_msg">Mail konnte nicht gesendet werden!</span>';
 $PALANG['pSendmail_result_success'] = 'Mail gesendet!';

@@ -140,6 +140,8 @@ $PALANG['pCreate_mailbox_password_text'] = 'Lozinka za POP3/IMAP';
 $PALANG['pCreate_mailbox_password_text_error'] = 'Lozinka za POP3/IMAP<br /><span class="error_msg">Uneene lozinke se ne podudaraju<br />ili su prazne!</span>';
 $PALANG['pCreate_mailbox_name'] = 'Ime';
 $PALANG['pCreate_mailbox_name_text'] = 'Puno ime';
+$PALANG['pCreate_mailbox_oldmail'] = 'Old email'; # XXX
+$PALANG['pCreate_mailbox_oldmail_text'] = 'This address will receive a copy of the welcome email.'; # XXX
 $PALANG['pCreate_mailbox_quota'] = 'Kvota';
 $PALANG['pCreate_mailbox_quota_text'] = 'MB';
 $PALANG['pCreate_mailbox_quota_text_error'] = 'MB<br /><span class="error_msg">Uneena kvota je prevelika!</span>';
@@ -211,6 +213,7 @@ $PALANG['pSendmail_to_text_error'] = '<span class="error_msg">Polje "Za" ne sadr
 $PALANG['pSendmail_subject'] = 'Subjekt';
 $PALANG['pSendmail_subject_text'] = 'Dobrodoli!';
 $PALANG['pSendmail_body'] = 'Tekst';
+$PALANG['pSendmail_body_text'] = ''; # XXX
 $PALANG['pSendmail_button'] = 'Poalji poruku';
 $PALANG['pSendmail_result_error'] = '<span class="error_msg">Potanski ormarić nije bilo moguče stvoriti!</span>'; # XXX text change - new: <span class="error_msg">Unable to send email!</span>
 $PALANG['pSendmail_result_success'] = 'Potanski ormarić je uspjeno stvoren!'; # XXX text change - new: Email sent!

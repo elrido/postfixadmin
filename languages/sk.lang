@@ -142,6 +142,8 @@ $PALANG['pCreate_mailbox_password_text'] = 'Heslo pre POP3/IMAP/SMTP';
 $PALANG['pCreate_mailbox_password_text_error'] = 'Heslo pre POP3/IMAP/SMTP<br /><span class="error_msg">Zadaná heslá sú rozdielne alebo prázdne!</span>';
 $PALANG['pCreate_mailbox_name'] = 'Meno';
 $PALANG['pCreate_mailbox_name_text'] = 'Celé meno';
+$PALANG['pCreate_mailbox_oldmail'] = 'Old email'; # XXX
+$PALANG['pCreate_mailbox_oldmail_text'] = 'This address will receive a copy of the welcome email.'; # XXX
 $PALANG['pCreate_mailbox_quota'] = 'Kvóta';
 $PALANG['pCreate_mailbox_quota_text'] = 'MB';
 $PALANG['pCreate_mailbox_quota_text_error'] = 'MB<br /><span class="error_msg">Zadané miesto je príliš velké!</span>';
@@ -213,6 +215,7 @@ $PALANG['pSendmail_to_text_error'] = '<span class="error_msg">Cieľ nie je platn
 $PALANG['pSendmail_subject'] = 'Predmet';
 $PALANG['pSendmail_subject_text'] = 'Vitajte';
 $PALANG['pSendmail_body'] = 'Obsah';
+$PALANG['pSendmail_body_text'] = ''; # XXX
 $PALANG['pSendmail_button'] = 'Poslať email';
 $PALANG['pSendmail_result_error'] = '<span class="error_msg">Nepodarilo sa poslať email!</span>';
 $PALANG['pSendmail_result_success'] = 'Email odoslaný!';

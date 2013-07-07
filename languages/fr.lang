@@ -142,6 +142,8 @@ $PALANG['pCreate_mailbox_password_text'] = 'Mot de passe pour compte POP3/IMAP';
 $PALANG['pCreate_mailbox_password_text_error'] = 'Mot de passe pour compte POP3/IMAP<br /><span class="error_msg">Les mots de passe ne correspondent pas !<br />ou sont vide !</span>';
 $PALANG['pCreate_mailbox_name'] = 'Nom';
 $PALANG['pCreate_mailbox_name_text'] = 'Nom complet';
+$PALANG['pCreate_mailbox_oldmail'] = 'Old email'; # XXX
+$PALANG['pCreate_mailbox_oldmail_text'] = 'This address will receive a copy of the welcome email.'; # XXX
 $PALANG['pCreate_mailbox_quota'] = 'Limite';
 $PALANG['pCreate_mailbox_quota_text'] = 'MB';
 $PALANG['pCreate_mailbox_quota_text_error'] = 'MB<br /><span class="error_msg">La limite que vous avez specifie est trop haute!</span>';
@@ -213,6 +215,7 @@ $PALANG['pSendmail_to_text_error'] = '<span class="error_msg">À est vide ou ce 
 $PALANG['pSendmail_subject'] = 'Sujet';
 $PALANG['pSendmail_subject_text'] = 'Bienvenue';
 $PALANG['pSendmail_body'] = 'Message';
+$PALANG['pSendmail_body_text'] = ''; # XXX
 $PALANG['pSendmail_button'] = 'Envoyer le message';
 $PALANG['pSendmail_result_error'] = '<span class="error_msg">Erreur lors de l\'envoit du message!</span>';
 $PALANG['pSendmail_result_success'] = 'Le message a été envoyé!';

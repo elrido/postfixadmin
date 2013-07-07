@@ -142,6 +142,8 @@ $PALANG['pCreate_mailbox_password_text'] = 'Wachtwoord voor POP3/IMAP';
 $PALANG['pCreate_mailbox_password_text_error'] = 'Wachtwoord voor POP3/IMAP<br /><span class="error_msg">De wachtwoorden die u opgaf komen niet overeen.<br />Of zijn leeg.</span>';
 $PALANG['pCreate_mailbox_name'] = 'Naam';
 $PALANG['pCreate_mailbox_name_text'] = 'Volledige naam';
+$PALANG['pCreate_mailbox_oldmail'] = 'Old email'; # XXX
+$PALANG['pCreate_mailbox_oldmail_text'] = 'This address will receive a copy of the welcome email.'; # XXX
 $PALANG['pCreate_mailbox_quota'] = 'Quota';
 $PALANG['pCreate_mailbox_quota_text'] = 'MB';
 $PALANG['pCreate_mailbox_quota_text_error'] = 'MB<br /><span class="error_msg">De quota die opgaf is te hoog.</span>';
@@ -213,6 +215,7 @@ $PALANG['pSendmail_to_text_error'] = '<span class="error_msg">Naar is leeg of ee
 $PALANG['pSendmail_subject'] = 'Onderwerp';
 $PALANG['pSendmail_subject_text'] = 'Welkom';
 $PALANG['pSendmail_body'] = 'Inhoud';
+$PALANG['pSendmail_body_text'] = ''; # XXX
 $PALANG['pSendmail_button'] = 'Verstuur bericht';
 $PALANG['pSendmail_result_error'] = '<span class="error_msg">Mislukt om mail te versturen!</span>';
 $PALANG['pSendmail_result_success'] = 'E-mail verstuurd!';

@@ -142,6 +142,8 @@ $PALANG['pCreate_mailbox_password_text'] = 'Passord for POP3/IMAP';
 $PALANG['pCreate_mailbox_password_text_error'] = 'Passord for POP3/IMAP<br /><span class="error_msg">Passordene du oppga stemmer ikke overens!<br />Eller du har ikke fylt ut feltene!</span>';
 $PALANG['pCreate_mailbox_name'] = 'Navn';
 $PALANG['pCreate_mailbox_name_text'] = 'Fullt navn';
+$PALANG['pCreate_mailbox_oldmail'] = 'Old email'; # XXX
+$PALANG['pCreate_mailbox_oldmail_text'] = 'This address will receive a copy of the welcome email.'; # XXX
 $PALANG['pCreate_mailbox_quota'] = 'Kvote';
 $PALANG['pCreate_mailbox_quota_text'] = 'MB';
 $PALANG['pCreate_mailbox_quota_text_error'] = 'MB<br /><span class="error_msg">Kvoten du har angitt er for høy!</span>';
@@ -213,6 +215,7 @@ $PALANG['pSendmail_to_text_error'] = '<span class="error_msg">Til-feltet er ikke
 $PALANG['pSendmail_subject'] = 'Emne';
 $PALANG['pSendmail_subject_text'] = 'Velkommen';
 $PALANG['pSendmail_body'] = 'Meldingstekst';
+$PALANG['pSendmail_body_text'] = ''; # XXX
 $PALANG['pSendmail_button'] = 'Send melding';
 $PALANG['pSendmail_result_error'] = '<span class="error_msg">Kunne ikke sende e-postmeldingen!</span>';
 $PALANG['pSendmail_result_success'] = 'E-postmeldingen er sendt!';

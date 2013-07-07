@@ -141,6 +141,8 @@ $PALANG['pCreate_mailbox_password_text'] = 'POP3/IMAP için þifre';
 $PALANG['pCreate_mailbox_password_text_error'] = 'POP3/IMAP için þifre<br /><span class="error_msg">Verdiðiniz þifreler birbirini tutmuyor!<br />Ya da boþ!</span>';
 $PALANG['pCreate_mailbox_name'] = 'Ýsim';
 $PALANG['pCreate_mailbox_name_text'] = 'Tam isim';
+$PALANG['pCreate_mailbox_oldmail'] = 'Old email'; # XXX
+$PALANG['pCreate_mailbox_oldmail_text'] = 'This address will receive a copy of the welcome email.'; # XXX
 $PALANG['pCreate_mailbox_quota'] = 'kota';
 $PALANG['pCreate_mailbox_quota_text'] = 'MB';
 $PALANG['pCreate_mailbox_quota_text_error'] = 'MB<br /><span class="error_msg">Veridðiniz kota çok yüksek!</span>';
@@ -212,6 +214,7 @@ $PALANG['pSendmail_to_text_error'] = '<span class="error_msg">Kime doðru bir e-
 $PALANG['pSendmail_subject'] = 'konu';
 $PALANG['pSendmail_subject_text'] = 'Hoþ geldiniz';
 $PALANG['pSendmail_body'] = 'Metin';
+$PALANG['pSendmail_body_text'] = ''; # XXX
 $PALANG['pSendmail_button'] = 'Mesaj Gönder';
 $PALANG['pSendmail_result_error'] = '<span class="error_msg">Posta kutusu yaratýlamadý!</span>'; # XXX text change - new: <span class="error_msg">Unable to send email!</span>
 $PALANG['pSendmail_result_success'] = 'Posta kutusu yaratýldý!'; # XXX text change - new: Email sent!
