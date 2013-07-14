@@ -241,29 +241,32 @@ if ($_SERVER['REQUEST_METHOD'] == "POST")
 
             if ($fMail == "on")
             {
-                $fTo = $fUsername . (empty($fOldmail) ? "" : (", " . $fOldmail));
+                $aTo = array($fUsername)
                 $fFrom = $SESSID_USERNAME;
-                $fHeaders = "To: " . $fTo . "\n";
-                $fHeaders .= "From: " . $fFrom . "\n";
+		if (!empty($fOldmail)) $aTo[] = $fOldmail;
+                foreach ($aTo as $fTo) {
+                    $fHeaders = "To: " . $fTo . "\n";
+                    $fHeaders .= "From: " . $fFrom . "\n";
 
-                $fHeaders .= "Subject: " . encode_header ($PALANG['pSendmail_subject_text']) . "\n";
-                $fHeaders .= "MIME-Version: 1.0\n";
-                $fHeaders .= "Content-Type: text/plain; charset=utf-8\n";
-                $fHeaders .= "Content-Transfer-Encoding: 8bit\n";
+                    $fHeaders .= "Subject: " . encode_header ($PALANG['pSendmail_subject_text']) . "\n";
+                    $fHeaders .= "MIME-Version: 1.0\n";
+                    $fHeaders .= "Content-Type: text/plain; charset=utf-8\n";
+                    $fHeaders .= "Content-Transfer-Encoding: 8bit\n";
 
-                $fHeaders .= str_replace(
-                    array('$name', '$username', '$password'),
-                    array($fName, $fUsername, $fPassword),
-                    empty($PALANG['pSendmail_body_text']) ? $CONF['welcome_text'] : $PALANG['pSendmail_body_text']
-                );
+                    $fHeaders .= str_replace(
+                        array('$name', '$username', '$password'),
+                        array($fName, $fUsername, $fPassword),
+                        empty($PALANG['pSendmail_body_text']) ? $CONF['welcome_text'] : $PALANG['pSendmail_body_text']
+                    );
 
-                if (!smtp_mail ($fTo, $fFrom, $fHeaders))
-                {
-                    $tMessage .= "<br />" . $PALANG['pSendmail_result_error'] . "<br />";
-                }
-                else
-                {
-                    $tMessage .= "<br />" . $PALANG['pSendmail_result_success'] . "<br />";
+                    if (!smtp_mail ($fTo, $fFrom, $fHeaders))
+                    {
+                        $tMessage .= "<br />" . $PALANG['pSendmail_result_error'] . "<br />";
+                    }
+                    else
+                    {
+                        $tMessage .= "<br />" . $PALANG['pSendmail_result_success'] . "<br />";
+                    }
                 }
             }
 
